@@ -1,0 +1,14 @@
+{
+  "name": "cicd",
+  "version": "1.0.0",
+  "description": "A demo project to learn CI/CD pipeline using jenkins",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samit-prsl",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
