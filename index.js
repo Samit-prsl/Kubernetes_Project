@@ -4,7 +4,7 @@ const app = express()
 const PORT = process.env.PORT || 5000
 
 app.get('/',(req,res)=>{
-    res.status(200).send("<h1>Hello World, I am learning CI/CD pipeline, head to /about to know what is it!</h1>")
+    res.status(200).send("<h1>Hello World, I am learning CI/CD pipeline and deploying it to kubernetes, head to /about to know what is it!</h1>")
 })
 
 app.get('/about',(req,res)=>{
